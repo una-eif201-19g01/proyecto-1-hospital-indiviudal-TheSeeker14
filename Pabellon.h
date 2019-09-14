@@ -3,6 +3,7 @@
 
 #include <string>
 #include "Cama.h"
+#include "arregloCama.h"
 
 
 class Cama;
@@ -16,12 +17,12 @@ private:
     char iD;
     string genero;
     int numCamas;
-    Cama *pCama;
+    arregloCama *pCama;
 
 
 public:
 
-    Pabellon(char iD, const string &genero, int numCamas, Cama *pCama);
+    Pabellon(char iD, const string &genero, int numCamas, arregloCama*pCama);
 
     Pabellon();
 
@@ -32,7 +33,7 @@ public:
 
     int getNumCamas() const;
 
-    Cama *getPCama() const;
+    arregloCama *getPCama() const;
 
     void setId(char iD);
 
@@ -40,15 +41,15 @@ public:
 
     void setNumCamas(int numCamas);
 
-    void setPCama(Cama *pCama);
+    void setPCama(arregloCama *pCama);
 
-    string toString();
+	string toString();
 
-    string imprimeDisponiblidadDeCamas();
+	string imprimeDisponiblidadDeCamas();
 
-    void cambiarCamas(string);
+	void cambiarCamas(string);
 
-    void modificarCama(char, int);
+	void modificarCama(char, int);
 
 
 

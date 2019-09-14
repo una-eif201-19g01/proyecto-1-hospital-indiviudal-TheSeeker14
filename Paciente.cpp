@@ -191,8 +191,15 @@ string Paciente::informes() {//TERMINAR FALTA PABELLON
 
 void Paciente::cambiarDoctor(Doctor *nuevoDoctor) {
 
-    pDoctor= nuevoDoctor;
+pDoctor= nuevoDoctor;
 }
+
+
+
+
+
+
+
 
 
 

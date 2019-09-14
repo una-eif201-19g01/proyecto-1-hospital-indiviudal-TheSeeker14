@@ -76,5 +76,3 @@ void arregloPaciente::agregaPacientes(Paciente *otroPaciente) {
         pPaciente[cantidad++]=otroPaciente;
     }
 }
-
-

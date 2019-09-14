@@ -51,5 +51,4 @@ public:
 };
 
 
-
 #endif //HOSPITAL_ARREGLOPACIENTE_H

@@ -54,7 +54,8 @@ string Cama::toString() {
         p << "Disponible" << "\n";
     } else
         p << "Ocupado" << "\n";
-    p << "Paciente:    "<<ePaciente->imprimirDatosPaciente()<<"\n";
+        p << "Paciente:    "<<ePaciente->imprimirDatosPaciente()<<"\n";
 
     return p.str();
 }
+

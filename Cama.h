@@ -13,7 +13,7 @@ private:
     std::string codigo;
     bool estado;
     Paciente *ePaciente;
-    int numero;
+
 public:
     Cama();
 
@@ -33,16 +33,7 @@ public:
 
     void setEPaciente(Paciente *ePaciente);
 
-    void agregar(Cama* pCam);
-
-    void eliminarCama(Cama* pCam);
-
-    void cambiarCama(string codex);
-
-    string disponibilidad();
-
     string toString();
 };
 #endif //CAMA_H
-
 

@@ -92,12 +92,13 @@ public:
 
     string informes();
 
-    void cambiarCama(Cama*);
+	void cambiarCama(Cama*);
 
-    void cambiarDoctor(Doctor*);
+	void cambiarDoctor(Doctor*);
 
 
 };
 
 
 #endif //PACIENTE_H
+

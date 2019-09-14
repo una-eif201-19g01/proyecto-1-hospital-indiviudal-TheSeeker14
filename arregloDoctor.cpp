@@ -41,12 +41,9 @@ void arregloDoctor::eliminarDoc(Doctor *delDoctor) {
 
 Doctor *arregloDoctor::buscarcarDoctor(string nombreDoc) {
     for (int i = 0; i < cantidad; i++) {
-
         if (pDoctor[i]->getNombre() == nombreDoc)
             return pDoctor[i];
-
     }
-
 }
 
 string arregloDoctor::imprimirDatosDoctor() {
@@ -60,4 +57,8 @@ string arregloDoctor::imprimirDatosDoctor() {
 
     return q.str();
 }
+
+
+
+
 

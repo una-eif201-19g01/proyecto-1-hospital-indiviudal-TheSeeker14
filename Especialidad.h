@@ -22,7 +22,7 @@ public:
 
     void setEspecialidad(const string &especialidad);
 
-    std::string toStringEspecialidad();
+	std::string toStringEspecialidad();
 };
 #endif //ESPECIALIDAD_H
 

@@ -5,7 +5,6 @@
 #ifndef HOSPITAL_ARREGLOPABELLON_H
 #define HOSPITAL_ARREGLOPABELLON_H
 
-
 #include "arregloCama.h"
 #include "Pabellon.h"
 
@@ -43,7 +42,6 @@ public:
     void agregarPabellones(Pabellon*);
 
 };
-
 
 
 #endif //HOSPITAL_ARREGLOPABELLON_H

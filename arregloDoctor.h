@@ -5,7 +5,6 @@
 #ifndef HOSPITAL_ARREGLODOCTOR_H
 #define HOSPITAL_ARREGLODOCTOR_H
 
-
 #include "Doctor.h"
 
 class arregloDoctor {
@@ -30,8 +29,6 @@ public:
 
 
 };
-
-
 
 
 #endif //HOSPITAL_ARREGLODOCTOR_H

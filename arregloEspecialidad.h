@@ -42,5 +42,4 @@ public:
 };
 
 
-
 #endif //HOSPITAL_ARREGLOESPECIALIDAD_H

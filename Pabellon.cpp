@@ -6,7 +6,7 @@ using namespace std;
 
 Pabellon::Pabellon() {}
 
-Pabellon::Pabellon(char iD, const string &genero, int numCamas, Cama *pCama) : iD(iD), genero(genero),
+Pabellon::Pabellon(char iD, const string &genero, int numCamas, arregloCama *pCama) : iD(iD), genero(genero),
                                                                                numCamas(numCamas), pCama(pCama) {}
 
 char Pabellon::getId() const {
@@ -21,7 +21,7 @@ int Pabellon::getNumCamas() const {
     return numCamas;
 }
 
-Cama *Pabellon::getPCama() const {
+arregloCama *Pabellon::getPCama() const {
     return pCama;
 }
 
@@ -37,7 +37,7 @@ void Pabellon::setNumCamas(int numCamas) {
     Pabellon::numCamas = numCamas;
 }
 
-void Pabellon::setPCama(Cama *pCama) {
+void Pabellon::setPCama(arregloCama *pCama) {
     Pabellon::pCama = pCama;
 }
 
@@ -76,12 +76,18 @@ void Pabellon::modificarCama(char iD, int numero) {
         stringstream z;
         z<<i+1;
         x = iD + z.str();
-        pCama->setCodigo(x);
-        pCama->agregar(otraCama);
+       // pCama.(x);
+        //pCama->agregar(otraCama);
     }
 
 
 }
+
+
+
+
+
+
 
 
 

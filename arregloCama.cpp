@@ -49,13 +49,13 @@ Cama *arregloCama::buscarCama(string codigo) {
 string arregloCama::toString() {
 
 
-    stringstream c;
-    c << "Camas por Codigo: \n";
-    for (int cama = 0; cama < cantidad; cama++) {
-        c << "Codigo: ";
-        c << pCama[cama]->toString();
-    }
-    return c.str();
+        stringstream c;
+        c << "Camas por Codigo: \n";
+        for (int cama = 0; cama < cantidad; cama++) {
+            c << "Codigo: ";
+            c << pCama[cama]->toString();
+        }
+        return c.str();
 
 
 }
@@ -107,5 +107,8 @@ void arregloCama::agregarCamas(Cama * nuevaCama) {
     if(cantidad<tamano)
         pCama[cantidad++]=nuevaCama;
 }
+
+
+
 
 

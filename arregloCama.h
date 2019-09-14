@@ -6,7 +6,6 @@
 #define HOSPITAL_ARREGLOCAMA_H
 
 
-
 #include "Cama.h"
 
 class arregloCama {
@@ -48,7 +47,6 @@ public:
     void agregarCamas(Cama*);
 
 };
-
 
 
 #endif //HOSPITAL_ARREGLOCAMA_H

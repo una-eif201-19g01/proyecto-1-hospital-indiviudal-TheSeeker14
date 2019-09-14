@@ -98,3 +98,4 @@ void arregloPabellon::agregarPabellones(Pabellon *nuevoPabellon) {
     pPabellon[cantidad++] = nuevoPabellon;
 }
 
+

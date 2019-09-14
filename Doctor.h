@@ -5,7 +5,7 @@
 #include "arregloPaciente.h"
 #include "Especialidad.h"
 
-class Paciente;
+class arregloPaciente;
 class Especialidad;
 class Doctor{
 
@@ -34,9 +34,9 @@ public:
 
     void setPPaciente(arregloPaciente *pPaciente);
 
-    virtual string tostring();
+	virtual string tostring();
 
-    void modificarArray(string);
+	void modificarArray(string);
 };
 
 #endif //DOCTOR_H

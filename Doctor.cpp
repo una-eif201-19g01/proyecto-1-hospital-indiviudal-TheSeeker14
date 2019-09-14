@@ -58,3 +58,4 @@ void Doctor::modificarArray(string nombreDoc) {
     pPaciente->agregaPacientes(otroPaciente);
 
 }
+

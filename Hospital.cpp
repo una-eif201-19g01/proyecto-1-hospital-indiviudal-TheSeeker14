@@ -108,3 +108,13 @@ Hospital::~Hospital() {
     delete elDoctor;
     delete elPabellon;
 }
+
+
+
+
+
+
+
+
+
+
